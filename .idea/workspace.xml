@@ -5,29 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="993a4ad2-620b-4665-9392-03e7dc0495e2" name="Changes" comment="ITEM_01 예제">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EffectiveJava.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Item_01/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Item_01/src/main/java/hskim/effictive/item1/EmunSetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Item_01/src/main/java/hskim/effictive/item1/ExtendStaticMethodConstructorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Item_01/src/main/java/hskim/effictive/item1/StaticMethodConstructorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Item_01/src/main/java/hskim/effictive/item1/StaticMethodInterfaceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Item_01/src/main/java/hskim/effictive/item1/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Item_01/target/classes/hskim/effictive/item1/EmunSetTest$Days.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Item_01/target/classes/hskim/effictive/item1/EmunSetTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Item_01/src/main/java/hskim/effictive/item2/NutritionFacts1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Item_01/src/main/java/hskim/effictive/item2/NutritionFacts2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Item_01/src/main/java/hskim/effictive/item2/NutritionFacts3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Item_01/src/main/java/hskim/effictive/item2/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Item_01/src/test/java/hskim/effictive/item2/NutritionFactsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Item_01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Item_01/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -38,18 +42,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="NutritionFactsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Item_01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hskim.effictive.item2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hskim.effictive.item2" />
+      <option name="MAIN_CLASS_NAME" value="hskim.effictive.item2.NutritionFactsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.NutritionFactsTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,8 +87,17 @@
       <updated>1656934335912</updated>
       <workItem from="1656934337068" duration="570000" />
       <workItem from="1656934919018" duration="136000" />
-      <workItem from="1656935126685" duration="138000" />
+      <workItem from="1656935126685" duration="489000" />
+      <workItem from="1657019689358" duration="3218000" />
     </task>
+    <task id="LOCAL-00001" summary="ITEM_01 예제">
+      <created>1656935285032</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656935285032</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

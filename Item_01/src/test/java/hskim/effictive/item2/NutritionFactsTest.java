@@ -3,6 +3,7 @@ package hskim.effictive.item2;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import static hskim.effictive.item2.NyPizza.Size.SMALL;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class NutritionFactsTest {
@@ -32,5 +33,12 @@ public class NutritionFactsTest {
     @DisplayName("코드 2-3 빌더 패턴")
     void test2_3(){
         NutritionFacts3 cocaCola = new NutritionFacts3.Builder(240, 8).calories(100).sodium(35).carbohydrate(27).build();
+    }
+
+    @Test
+    @DisplayName("코드 2-4 ~ 2-6")
+    void test2_3_6(){
+        NyPizza nyPizza = new NyPizza.Builder(NyPizza.Size.SMALL).addTopping(Pizza.Topping.SAUSAGE).addTopping(Pizza.Topping.ONION).build();
+        Calzone calzone = new Calzone.Builder().addTopping(Pizza.Topping.HAM).sauceInside().build();
     }
 }
